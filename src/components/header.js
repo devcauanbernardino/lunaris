@@ -6,7 +6,7 @@ import styles from "../styles/headerstyles";
 export default function Header() {
   return (
     <View style={styles.header}>
-      <Text style={styles.title}>Lunaris Livraria</Text>
+      <Text style={styles.title}>Lunaris Livris</Text>
       <View style={styles.icons}>
         <TouchableOpacity style={styles.icon}>
           <Ionicons name="heart-outline" size={24} color="#5320a6" />
