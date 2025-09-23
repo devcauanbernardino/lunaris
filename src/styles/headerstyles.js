@@ -4,7 +4,7 @@ export default StyleSheet.create({
   header: {
     flexDirection: "row",
     alignItems: "center",
-    justifyContent: "space-between",
+    justifyContent: "space-around",
     height: 80,
     paddingHorizontal: 10,
     backgroundColor: "#ece2ff",
@@ -18,7 +18,7 @@ export default StyleSheet.create({
     flexDirection: "row",
   },
   icon: {
-    marginRight: 15,
+    marginHorizontal: 5,
   },
   menu: {
     backgroundColor: "#5320a6",
