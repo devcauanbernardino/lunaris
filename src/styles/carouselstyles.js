@@ -1,8 +1,9 @@
 import { StyleSheet } from "react-native";
+import colors from "../styles/colors";
 
 export default StyleSheet.create({
   carouselCard: {
-    backgroundColor: "#fff",
+    backgroundColor: colors.background,
     borderRadius: 10,
     marginRight: 30,
     padding: 10,
@@ -10,7 +11,7 @@ export default StyleSheet.create({
     alignItems: "center",
     width: 330,
     height: 200,
-    shadowColor: "#000",
+    shadowColor: colors.black,
     shadowOpacity: 0.1,
     shadowRadius: 4,
     elevation: 3,
@@ -24,6 +25,6 @@ export default StyleSheet.create({
     marginTop: 10,
     fontSize: 16,
     textAlign: "center",
-    color: "#5320a6",
+    color: colors.primary,
   },
 });
